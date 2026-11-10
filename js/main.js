@@ -17,7 +17,7 @@
     topbar: 'A first in Quebec: insurance against tax audits',
     logoSub: 'a division of Fort Assurances',
     menu: 'Menu',
-    navCoverage: 'Coverage', navPlans: 'Personal &amp; business', navHow: 'How it works', navFaq: 'FAQ', navQuote: 'Get a quote',
+    navCoverage: 'Coverage', navPlans: 'Who it\'s for', navHow: 'How it works', navFaq: 'FAQ', navQuote: 'Get a quote',
     heroEyebrow: 'First and only in Quebec',
     heroTitle: 'Audited by the CRA or Revenu Québec? <span class="hl">You\'re protected.</span>',
     heroLead: 'Audit Assurance covers the professional fees of the accountants and tax specialists who represent you during a tax audit — for individuals and businesses alike.',
@@ -31,6 +31,28 @@
     whyTitle: 'An audit can be expensive — even when everything is in order.',
     whyP1: 'Every year, the Canada Revenue Agency and Revenu Québec review thousands of returns from individuals and businesses. A simple request for documents can turn into a full audit.',
     whyP2: 'Even with nothing to hide, responding properly takes time and professional help. Those fees are rarely budgeted for. Audit Assurance takes care of them, so you can defend yourself without hesitation.',
+    navBenefits: 'Benefits',
+    benKicker: 'Benefits', benTitle: 'Why choose tax audit insurance?',
+    benLead: 'Audits are never planned. Being protected in advance changes everything: you respond with confidence, with the right experts, without worrying about the bill.',
+    bn1t: 'Peace of mind', bn1d: 'A notice from the CRA or Revenu Québec no longer has to be stressful: you already know who to call, and covered representation fees are taken care of.',
+    bn2t: 'Predictable cost', bn2d: 'A fixed premium replaces unpredictable professional fees, which can reach several thousand dollars in a complex audit.',
+    bn3t: 'Experts on your side', bn3d: 'Accountants, tax specialists or lawyers speak to the auditors on your behalf. You avoid mistakes and statements that could hurt your file.',
+    bn4t: 'A stronger defence', bn4d: 'A well-prepared, documented response helps limit reassessments and close the file faster.',
+    bn5t: 'Time saved', bn5d: 'While professionals handle the audit, you stay focused on your family, your work or your business.',
+    bn6t: 'Stand up for your rights', bn6d: 'No more giving up on disputing an assessment because of the cost: a notice of objection can be covered by your protection.',
+    wpT: 'Why individuals should be protected',
+    wp1: 'Self-employed people and rental property owners are often reviewed closely.',
+    wp2: 'Credits and deductions (medical expenses, childcare, moving, donations) regularly trigger requests for supporting documents.',
+    wp3: 'Capital gains, investment income and property sales can trigger a review.',
+    wp4: 'Facing the CRA or Revenu Québec alone is intimidating; a professional speaks the same language as the auditor.',
+    wp5: 'Your family savings stay protected from unexpected fees.',
+    wbT: 'Why businesses should be protected',
+    wb1: 'Businesses face several types of audits: corporate income tax, GST/QST and source deductions.',
+    wb2: 'Protect your cash flow: no unexpected fees throwing your budget off balance.',
+    wb3: 'Your managers stay focused on customers and growth, not paperwork.',
+    wb4: 'A well-handled audit protects your reputation with partners, lenders and investors.',
+    wb5: 'The premium may be a deductible business expense — check with your accountant.',
+    benCta: 'Get my free quote',
     covKicker: 'Coverage', covTitle: 'What your protection can cover',
     covLead: 'The fees of the professionals who support you from the first notice until your file is closed.',
     c1t: 'Income tax audits', c1d: 'Reviews and audits of your federal (CRA) and provincial (Revenu Québec) income tax returns.',
@@ -136,7 +158,7 @@
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
     }, { rootMargin: '0px 0px -8% 0px' });
-    $$('.card, .plan, .steps li, .section-head, .faq details').forEach(function (el) { el.classList.add('reveal'); io.observe(el); });
+    $$('.card, .plan, .steps li, .section-head, .faq details, .benefit, .why-col').forEach(function (el) { el.classList.add('reveal'); io.observe(el); });
   }
 
   /* ---------- Quote form ---------- */
