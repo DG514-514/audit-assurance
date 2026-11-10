@@ -31,7 +31,7 @@
     whyTitle: 'An audit can be expensive — even when everything is in order.',
     whyP1: 'Every year, the Canada Revenue Agency and Revenu Québec review thousands of returns from individuals and businesses. A simple request for documents can turn into a full audit.',
     whyP2: 'Even with nothing to hide, responding properly takes time and professional help. Those fees are rarely budgeted for. Audit Assurance takes care of them, so you can defend yourself without hesitation.',
-    navBenefits: 'Benefits',
+    navBenefits: 'Why audit insurance?',
     benKicker: 'Benefits', benTitle: 'Why choose tax audit insurance?',
     benLead: 'Audits are never planned. Being protected in advance changes everything: you respond with confidence, with the right experts, without worrying about the bill.',
     bn1t: 'Peace of mind', bn1d: 'A notice from the CRA or Revenu Québec no longer has to be stressful: you already know who to call, and covered representation fees are taken care of.',
