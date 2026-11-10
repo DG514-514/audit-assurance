@@ -22,7 +22,7 @@
     heroTitle: 'Audited by the CRA or Revenu Québec? <span class="hl">You\'re protected.</span>',
     heroLead: 'Audit Assurance covers the professional fees of the accountants and tax specialists who represent you during a tax audit — for individuals and businesses alike.',
     heroCta: 'Get my quote', heroCta2: 'See what\'s covered',
-    heroP1: 'CRA and Revenu Québec audits', heroP2: 'Individuals, self-employed and businesses', heroP3: 'Free, no-obligation quote',
+    heroP1: 'CRA and Revenu Québec audits', heroP2: 'Individuals, the self-employed and businesses', heroP3: 'Free, no-obligation quote',
     letterTag: 'Audit notice', stamp: 'Protected', chipCovered: 'covered', chipCovered2: 'covered',
     s1a: '1<sup>st</sup>', s1b: 'tax audit insurance in Quebec',
     s2a: '2', s2b: 'authorities covered: CRA and Revenu Québec',
@@ -56,18 +56,18 @@
     covKicker: 'Coverage', covTitle: 'What your protection can cover',
     covLead: 'The fees of the professionals who support you from the first notice until your file is closed.',
     c1t: 'Income tax audits', c1d: 'Reviews and audits of your federal (CRA) and provincial (Revenu Québec) income tax returns.',
-    c2t: 'GST/HST and QST', c2d: 'Sales tax audits, input tax credit claims and periodic returns.',
+    c2t: 'GST/HST and QST', c2d: 'Sales tax audits, input tax credits and refunds (ITCs/ITRs) and periodic returns.',
     c3t: 'Source deductions', c3d: 'Payroll audits, taxable benefits and employer contributions.',
     c4t: 'Professional representation', c4d: 'Fees of CPAs, tax specialists or lawyers to prepare documents, meet auditors and answer requests.',
     c5t: 'Notices of objection', c5d: 'Preparing and filing a notice of objection if you dispute a reassessment.',
     c6t: 'Information requests', c6d: 'Responding to document requests and preliminary reviews before they escalate.',
     covFine: 'Exact coverage, limits and exclusions are set out in your policy. Protection covers professional fees; it does not cover tax, interest or penalties assessed.',
     plansKicker: 'Who it\'s for', plansTitle: 'Protection for every taxpayer',
-    p1badge: 'Personal', p1t: 'Individuals &amp; families',
+    p1badge: 'Individuals', p1t: 'Individuals &amp; families',
     p1d: 'For employees, retirees, investors, rental property owners and the self-employed.',
     p1l1: 'Audits of your personal returns', p1l2: 'Credits, deductions and rental income', p1l3: 'Self-employment income', p1l4: 'Support from a professional',
     p1cta: 'Personal quote',
-    p2badge: 'Business', p2t: 'SMEs &amp; businesses',
+    p2badge: 'Businesses', p2t: 'SMEs &amp; businesses',
     p2d: 'For corporations, sole proprietorships, partnerships and non-profits.',
     p2l1: 'Corporate tax (CRA and Revenu Québec)', p2l2: 'GST/HST and QST', p2l3: 'Source deductions and payroll', p2l4: 'Optional coverage for shareholders',
     p2cta: 'Business quote',
@@ -81,7 +81,7 @@
     q2: 'Is the tax owing covered?', a2: 'No. Protection covers representation and defence costs. Tax, interest and penalties assessed by the authorities remain your responsibility.',
     q3: 'Can I keep my current accountant?', a3: 'Yes. Depending on your policy, you can be represented by your own professional or by a member of our network.',
     q4: 'I\'ve been audited before. Can I still get coverage?', a4: 'Yes, in most cases. Mention it in your quote request — it helps us offer the right protection. An audit already under way when you sign up is generally not covered.',
-    q5: 'How much does it cost?', a5: 'Your premium depends on your situation (individual or business, type of activity, revenue). Request a free, no-obligation quote.',
+    q5: 'How much does coverage cost?', a5: 'Your premium depends on your situation (individual or business, type of activity, revenue). Request a free, no-obligation quote.',
     q6: 'Who is behind Audit Assurance?', a6: 'Audit Assurance is a division of Fort Assurances, a Quebec insurance brokerage.',
     q7: 'What happens after I request a quote?', a7: 'Our team receives and reviews your request, then sets your premium. An advisor then presents the offer and guides you until your policy is issued.',
     qKicker: 'Free quote', qTitle: 'Get your quote',
@@ -93,7 +93,7 @@
     fYou: '2. Your information', fFullName: 'Full name', fCompany: 'Company name', fIfApplicable: '(if applicable)',
     eRequired: 'This field is required.',
     fBizDetails: '3. Your business', fBizType: 'Type of business', fChoose: 'Choose…',
-    b1: 'Construction &amp; renovation', b2: 'Retail', b3: 'Restaurants &amp; hospitality', b4: 'Professional services', b5: 'Health &amp; care',
+    b1: 'Construction &amp; renovation', b2: 'Retail', b3: 'Restaurants &amp; hospitality', b4: 'Professional services', b5: 'Health care',
     b6: 'Transportation &amp; trucking', b7: 'Real estate &amp; rentals', b8: 'Manufacturing', b9: 'Technology', b10: 'Agriculture', b11: 'Non-profit organization', b12: 'Other',
     fStructure: 'Legal structure', st1: 'Corporation (Inc.)', st2: 'Sole proprietorship', st3: 'Partnership', st4: 'Other',
     fBizOther: 'Please specify the type of business',
@@ -104,7 +104,7 @@
     fPreferNot: 'Prefer not to say', r1: 'Under $100,000', r2: '$100,000 to $250,000', r3: '$250,000 to $500,000', r4: '$500,000 to $1M', r5: '$1M to $5M', r6: 'Over $5M',
     fAudited: 'Have you been audited by the CRA or Revenu Québec in the last 3 years?',
     yes: 'Yes', no: 'No', unsure: 'Not sure', eChoose: 'Please choose an option.',
-    fByWhom: 'By which authority? <span class="opt">(optional)</span>', byCra: 'CRA',
+    fByWhom: 'By which authority? <span class="opt">(optional)</span>', byCra: 'CRA', pQC: 'Quebec', ariaNav: 'Main', ariaStrip: 'Why us',
     fContact: 'Contact details', fEmail: 'Email', eEmail: 'Enter a valid email address.', fPhone: 'Phone', ePhone: 'Enter a valid phone number.',
     fContactPref: 'Preferred contact method', cp1: 'Phone', cp2: 'Email',
     fContactTime: 'Best time to reach you', ct0: 'Any time', ct1: 'Morning', ct2: 'Afternoon', ct3: 'Evening',
@@ -123,12 +123,19 @@
     en: { sending: 'Sending…', fail: 'Sending failed. Please try again or email us at ', fix: 'Please correct the highlighted fields.', mail: 'Your email app has opened with the request. Just press send.', title: 'Audit Assurance | Protection against CRA and Revenu Québec audits' }
   };
 
+  var META_EN = {
+    'description': 'Audit Assurance, a division of Fort Assurances: the first insurance in Quebec that protects individuals and businesses during CRA and Revenu Québec audits.',
+    'og:title': 'Audit Assurance — Tax audit protection',
+    'og:description': 'Audited by the CRA or Revenu Québec? Your professional representation fees are covered.'
+  };
+  var FR_ARIA = {}, FR_META = {};
   var FR = {};
   var i18nEls = $$('[data-i18n]');
   i18nEls.forEach(function (el) { var k = el.getAttribute('data-i18n'); if (!(k in FR)) FR[k] = el.innerHTML; });
 
   var lang = 'fr';
   try { var saved = localStorage.getItem('aa-lang'); if (saved === 'en' || saved === 'fr') lang = saved; } catch (e) {}
+  var qs = /[?&]lang=(en|fr)\b/.exec(location.search); if (qs) lang = qs[1];
 
   function setLang(l) {
     lang = l;
@@ -136,6 +143,8 @@
     i18nEls.forEach(function (el) { var k = el.getAttribute('data-i18n'); if (dict[k] != null) el.innerHTML = dict[k]; });
     document.documentElement.lang = l === 'en' ? 'en-CA' : 'fr-CA';
     document.title = MSG[l].title;
+    $$('[data-i18n-aria]').forEach(function (el) { var k = el.getAttribute('data-i18n-aria'); if (!FR_ARIA[k]) FR_ARIA[k] = el.getAttribute('aria-label'); el.setAttribute('aria-label', l === 'en' ? EN[k] : FR_ARIA[k]); });
+    $$('meta[name=description], meta[property="og:description"], meta[property="og:title"]').forEach(function (m) { var k = m.getAttribute('name') || m.getAttribute('property'); if (!FR_META[k]) FR_META[k] = m.content; m.content = l === 'en' ? META_EN[k] : FR_META[k]; });
     var btn = $('#lang-toggle');
     btn.textContent = l === 'en' ? 'FR' : 'EN';
     btn.setAttribute('lang', l === 'en' ? 'fr' : 'en');
@@ -143,7 +152,7 @@
     try { localStorage.setItem('aa-lang', l); } catch (e) {}
   }
   $('#lang-toggle').addEventListener('click', function () { setLang(lang === 'fr' ? 'en' : 'fr'); });
-  if (lang !== 'fr') setLang(lang);
+  setLang(lang);
 
   /* ---------- Mobile nav ---------- */
   var nav = $('.nav'), toggle = $('.nav-toggle');
