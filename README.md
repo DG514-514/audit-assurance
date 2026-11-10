@@ -35,3 +35,8 @@ python3 -m http.server 8000
 ```
 
 Then open http://localhost:8000.
+
+## Publishing updates
+
+The CSS and JS links in `index.html` end in `?v=...`. Change that value whenever you edit those files,
+so visitors' browsers load the new version right away instead of a cached copy.
